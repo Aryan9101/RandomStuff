@@ -4,8 +4,7 @@ import java.util.*;
 import java.math.*;
 
 public class FibonacciGeneratorUnlimited {
-	//Max is unlimited, but console can only display 153120
-	//static int numFibCalls = 0;
+
 	static HashMap<Integer, BigInteger> dict = new HashMap<Integer, BigInteger>();
 	static Scanner fibTerm = new Scanner(System.in);
 	static BigInteger fibNumber = new BigInteger("0");
